@@ -26,5 +26,7 @@ public class SchedulerJobInfo {
 
     private String cronExpression;
 
-    private String propertyKey;
+    private Long repeatTime;
+
+    private Boolean cronJob;
 }

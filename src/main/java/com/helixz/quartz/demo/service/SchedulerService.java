@@ -13,8 +13,6 @@ public interface SchedulerService {
 
     void updateScheduleJob(SchedulerJobInfo jobInfo);
 
-    SchedulerJobInfo updateScheduleJobByPropertyKey(String propertyKey, String cronExpression);
-
     boolean unScheduleJob(String jobName);
 
     boolean deleteJob(SchedulerJobInfo jobInfo);
